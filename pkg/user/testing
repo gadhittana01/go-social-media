@@ -1,0 +1,18 @@
+mode: set
+github.com/gadhittana01/socialmedia/pkg/user/users.sql.go:26.91,31.2 4 1
+github.com/gadhittana01/socialmedia/pkg/user/users.sql.go:38.67,41.2 2 1
+github.com/gadhittana01/socialmedia/pkg/user/users.sql.go:53.78,58.2 4 1
+github.com/gadhittana01/socialmedia/pkg/user/users.sql.go:70.72,72.16 2 1
+github.com/gadhittana01/socialmedia/pkg/user/users.sql.go:76.2,78.18 3 1
+github.com/gadhittana01/socialmedia/pkg/user/users.sql.go:85.2,85.37 1 1
+github.com/gadhittana01/socialmedia/pkg/user/users.sql.go:88.2,88.35 1 1
+github.com/gadhittana01/socialmedia/pkg/user/users.sql.go:91.2,91.19 1 1
+github.com/gadhittana01/socialmedia/pkg/user/users.sql.go:72.16,74.3 1 1
+github.com/gadhittana01/socialmedia/pkg/user/users.sql.go:78.18,80.55 2 1
+github.com/gadhittana01/socialmedia/pkg/user/users.sql.go:83.3,83.27 1 1
+github.com/gadhittana01/socialmedia/pkg/user/users.sql.go:80.55,82.4 1 1
+github.com/gadhittana01/socialmedia/pkg/user/users.sql.go:85.37,87.3 1 0
+github.com/gadhittana01/socialmedia/pkg/user/users.sql.go:88.35,90.3 1 0
+github.com/gadhittana01/socialmedia/pkg/user/users.sql.go:111.96,116.2 4 1
+github.com/gadhittana01/socialmedia/pkg/user/db.go:19.28,21.2 1 1
+github.com/gadhittana01/socialmedia/pkg/user/db.go:27.47,31.2 1 1

@@ -1,0 +1,31 @@
+version: "2"
+sql:
+  - engine: "postgresql"
+    queries: "./queries/users.sql"
+    schema: "./tables/"
+    gen:
+      go:
+        package: "user"
+        out: "pkg/user"
+  - engine: "postgresql"
+    queries: "./queries/posts.sql"
+    schema: "./tables/"
+    gen:
+      go:
+        package: "post"
+        out: "pkg/post"
+  - engine: "postgresql"
+    queries: "./queries/tags.sql"
+    schema: "./tables/"
+    gen:
+      go:
+        package: "tag"
+        out: "pkg/tag"
+  - engine: "postgresql"
+    queries: "./queries/post_tags.sql"
+    schema: "./tables/"
+    gen:
+      go:
+        package: "post_tags"
+        out: "pkg/post_tags"
+

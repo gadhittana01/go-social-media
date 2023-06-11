@@ -1,0 +1,5 @@
+mode: set
+github.com/gadhittana01/socialmedia/pkg/post_tags/db.go:19.28,21.2 1 1
+github.com/gadhittana01/socialmedia/pkg/post_tags/db.go:27.47,31.2 1 1
+github.com/gadhittana01/socialmedia/pkg/post_tags/post_tags.sql.go:32.105,37.2 4 1
+github.com/gadhittana01/socialmedia/pkg/post_tags/post_tags.sql.go:44.74,47.2 2 1

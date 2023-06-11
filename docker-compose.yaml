@@ -1,0 +1,44 @@
+version: '3'
+services:
+  PostgreSQL:
+    image: postgres:latest
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_HOST=postgres
+      - POSTGRES_DB=socialMediaDB
+    volumes:
+      - socialmediapg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+  social-media-api:
+    image: social-media-api
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 8000:8000
+    environment:
+      - DB_HOST=PostgreSQL
+    depends_on:
+      PostgreSQL:
+        condition: service_healthy
+  social-media-api-2:
+    image: social-media-api
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 9000:8000
+    environment:
+      - DB_HOST=PostgreSQL
+    depends_on:
+      PostgreSQL:
+        condition: service_healthy
+volumes:
+  socialmediapg:

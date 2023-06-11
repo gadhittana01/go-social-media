@@ -1,0 +1,18 @@
+mode: set
+github.com/gadhittana01/socialmedia/pkg/post/db.go:19.28,21.2 1 1
+github.com/gadhittana01/socialmedia/pkg/post/db.go:27.47,31.2 1 1
+github.com/gadhittana01/socialmedia/pkg/post/posts.sql.go:34.96,44.2 4 1
+github.com/gadhittana01/socialmedia/pkg/post/posts.sql.go:51.67,54.2 2 1
+github.com/gadhittana01/socialmedia/pkg/post/posts.sql.go:68.78,78.2 4 1
+github.com/gadhittana01/socialmedia/pkg/post/posts.sql.go:92.72,94.16 2 1
+github.com/gadhittana01/socialmedia/pkg/post/posts.sql.go:97.2,99.18 3 1
+github.com/gadhittana01/socialmedia/pkg/post/posts.sql.go:111.2,111.37 1 1
+github.com/gadhittana01/socialmedia/pkg/post/posts.sql.go:114.2,114.35 1 1
+github.com/gadhittana01/socialmedia/pkg/post/posts.sql.go:117.2,117.19 1 1
+github.com/gadhittana01/socialmedia/pkg/post/posts.sql.go:94.16,96.3 1 1
+github.com/gadhittana01/socialmedia/pkg/post/posts.sql.go:99.18,106.17 2 1
+github.com/gadhittana01/socialmedia/pkg/post/posts.sql.go:109.3,109.27 1 1
+github.com/gadhittana01/socialmedia/pkg/post/posts.sql.go:106.17,108.4 1 1
+github.com/gadhittana01/socialmedia/pkg/post/posts.sql.go:111.37,113.3 1 0
+github.com/gadhittana01/socialmedia/pkg/post/posts.sql.go:114.35,116.3 1 0
+github.com/gadhittana01/socialmedia/pkg/post/posts.sql.go:139.96,144.2 4 1
